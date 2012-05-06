@@ -1,0 +1,611 @@
+Controllers::RailsInfoController: missing default helper path rails_info_helper
+
+
+Processing RailsInfoController#properties (for 127.0.0.1 at 2006-03-09 20:13:19) [GET]
+  Parameters: {"action"=>"properties", "controller"=>"rails_info"}
+Completed in 0.03356 (29 reqs/sec) | Rendering: 0.02245 (66%) | 200 OK [http://0.0.0.0/rails_info/properties]
+
+
+Processing Base#index (for 127.0.0.1 at 2006-03-09 20:16:35) [GET]
+  Parameters: {}
+
+
+ActionController::RoutingError (Recognition failed for "/material"):
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/routing.rb:469:in `recognition_failed'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/routing.rb:459:in `recognize!'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/dispatcher.rb:38:in `dispatch'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:141:in `process_request'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:53:in `process!'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:52:in `each_cgi'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/fcgi-0.8.6.1/./fcgi.rb:597:in `each'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/fcgi-0.8.6.1/./fcgi.rb:597:in `each_cgi'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:52:in `process!'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:22:in `process!'
+    /Users/alexkroman/Sites/alchemist/public/dispatch.fcgi:24
+
+
+Rendering /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing Base#index (for 127.0.0.1 at 2006-03-09 20:16:43) [GET]
+  Parameters: {}
+
+
+ActionController::RoutingError (Recognition failed for "/materials"):
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/routing.rb:469:in `recognition_failed'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/routing.rb:459:in `recognize!'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/dispatcher.rb:38:in `dispatch'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:141:in `process_request'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:53:in `process!'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:52:in `each_cgi'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/fcgi-0.8.6.1/./fcgi.rb:597:in `each'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/fcgi-0.8.6.1/./fcgi.rb:597:in `each_cgi'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:52:in `process!'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:22:in `process!'
+    /Users/alexkroman/Sites/alchemist/public/dispatch.fcgi:24
+
+
+Rendering /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing MaterialController#index (for 127.0.0.1 at 2006-03-09 20:17:25) [GET]
+  Parameters: {"action"=>"index", "controller"=>"material"}
+
+
+ActionController::UnknownAction (No action responded to index):
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/filters.rb:332:in `perform_action_without_benchmark'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/benchmarking.rb:69:in `measure'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/rescue.rb:82:in `perform_action'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/base.rb:369:in `send'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/base.rb:369:in `process_without_session_management_support'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/session_management.rb:116:in `process'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/dispatcher.rb:38:in `dispatch'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:141:in `process_request'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:53:in `process!'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:52:in `each_cgi'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/fcgi-0.8.6.1/./fcgi.rb:597:in `each'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/fcgi-0.8.6.1/./fcgi.rb:597:in `each_cgi'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:52:in `process!'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:22:in `process!'
+    /Users/alexkroman/Sites/alchemist/public/dispatch.fcgi:24
+
+
+Rendering /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing Base#index (for 127.0.0.1 at 2006-03-09 20:17:29) [GET]
+  Parameters: {}
+
+
+ActionController::RoutingError (Recognition failed for "/materials"):
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/routing.rb:469:in `recognition_failed'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/routing.rb:459:in `recognize!'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/dispatcher.rb:38:in `dispatch'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:141:in `process_request'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:53:in `process!'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:52:in `each_cgi'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/fcgi-0.8.6.1/./fcgi.rb:597:in `each'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/fcgi-0.8.6.1/./fcgi.rb:597:in `each_cgi'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:52:in `process!'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:22:in `process!'
+    /Users/alexkroman/Sites/alchemist/public/dispatch.fcgi:24
+
+
+Rendering /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing MaterialController#index (for 127.0.0.1 at 2006-03-09 20:18:20) [GET]
+  Parameters: {"action"=>"index", "controller"=>"material"}
+
+
+ActionController::UnknownAction (No action responded to index):
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/filters.rb:332:in `perform_action_without_benchmark'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/benchmarking.rb:69:in `measure'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/rescue.rb:82:in `perform_action'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/base.rb:369:in `send'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/base.rb:369:in `process_without_session_management_support'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/session_management.rb:116:in `process'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/dispatcher.rb:38:in `dispatch'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:141:in `process_request'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:53:in `process!'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:52:in `each_cgi'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/fcgi-0.8.6.1/./fcgi.rb:597:in `each'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/fcgi-0.8.6.1/./fcgi.rb:597:in `each_cgi'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:52:in `process!'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:22:in `process!'
+    /Users/alexkroman/Sites/alchemist/public/dispatch.fcgi:24
+
+
+Rendering /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing MaterialsController#index (for 127.0.0.1 at 2006-03-09 20:22:26) [GET]
+  Parameters: {"action"=>"index", "controller"=>"materials"}
+Rendering materials/index
+Completed in 0.01779 (56 reqs/sec) | Rendering: 0.00567 (31%) | 200 OK [http://0.0.0.0/materials/]
+  [4;36;1mMaterial Columns (0.007844)[0m   [0;1mSHOW FIELDS FROM materials[0m
+
+
+Processing MaterialsController#index (for 127.0.0.1 at 2006-03-09 20:23:54) [GET]
+  Parameters: {"action"=>"index", "controller"=>"materials"}
+  [4;36;1mMaterial Count (0.044847)[0m   [0;1mSELECT COUNT(*) FROM materials [0m
+  [4;35;1mMaterial Load (0.004222)[0m   [0mSELECT * FROM materials LIMIT 0, 10[0m
+Rendering actionlistlayoutfalse within layouts/materials
+Rendering materials/list
+  [4;36;1mMaterial Columns (0.005858)[0m   [0;1mSHOW FIELDS FROM materials[0m
+Completed in 0.16314 (6 reqs/sec) | Rendering: 0.03363 (20%) | DB: 0.05493 (33%) | 200 OK [http://0.0.0.0/materials/]
+
+
+Processing MaterialsController#new (for 127.0.0.1 at 2006-03-09 20:24:05) [GET]
+  Parameters: {"action"=>"new", "controller"=>"materials"}
+  [4;35;1mMaterial Columns (0.007096)[0m   [0mSHOW FIELDS FROM materials[0m
+Rendering  within layouts/materials
+Rendering materials/new
+Rendered materials/_form (0.00763)
+Completed in 0.05153 (19 reqs/sec) | Rendering: 0.02344 (45%) | DB: 0.00710 (13%) | 200 OK [http://0.0.0.0/materials/new]
+
+
+Processing MaterialsController#new (for 127.0.0.1 at 2006-03-09 20:24:38) [GET]
+  Parameters: {"action"=>"new", "controller"=>"materials"}
+  [4;36;1mMaterial Columns (0.005558)[0m   [0;1mSHOW FIELDS FROM materials[0m
+Rendering  within layouts/materials
+Rendering materials/new
+Rendered materials/_form (0.00316)
+Completed in 0.07503 (13 reqs/sec) | Rendering: 0.01926 (25%) | DB: 0.00556 (7%) | 200 OK [http://0.0.0.0/materials/new]
+
+
+Processing MaterialsController#new (for 127.0.0.1 at 2006-03-09 20:24:58) [GET]
+  Parameters: {"action"=>"new", "controller"=>"materials"}
+  [4;35;1mMaterial Columns (0.005891)[0m   [0mSHOW FIELDS FROM materials[0m
+Rendering  within layouts/materials
+Rendering materials/new
+Rendered materials/_form (0.00360)
+Completed in 0.04167 (23 reqs/sec) | Rendering: 0.01404 (33%) | DB: 0.00589 (14%) | 200 OK [http://0.0.0.0/materials/new]
+
+
+Processing MaterialsController#list (for 127.0.0.1 at 2006-03-09 20:24:59) [GET]
+  Parameters: {"action"=>"list", "controller"=>"materials"}
+  [4;36;1mMaterial Count (0.000740)[0m   [0;1mSELECT COUNT(*) FROM materials [0m
+  [4;35;1mMaterial Load (0.000855)[0m   [0mSELECT * FROM materials LIMIT 0, 10[0m
+Rendering  within layouts/materials
+Rendering materials/list
+  [4;36;1mMaterial Columns (0.004722)[0m   [0;1mSHOW FIELDS FROM materials[0m
+Completed in 0.07799 (12 reqs/sec) | Rendering: 0.01264 (16%) | DB: 0.00632 (8%) | 200 OK [http://0.0.0.0/materials/list]
+
+
+Processing MaterialsController#new (for 127.0.0.1 at 2006-03-09 20:25:01) [GET]
+  Parameters: {"action"=>"new", "controller"=>"materials"}
+  [4;35;1mMaterial Columns (0.006883)[0m   [0mSHOW FIELDS FROM materials[0m
+Rendering  within layouts/materials
+Rendering materials/new
+Rendered materials/_form (0.00590)
+Completed in 0.48201 (2 reqs/sec) | Rendering: 0.02937 (6%) | DB: 0.00688 (1%) | 200 OK [http://0.0.0.0/materials/new]
+
+
+Processing MaterialsController#new (for 127.0.0.1 at 2006-03-09 20:25:25) [GET]
+  Parameters: {"action"=>"new", "controller"=>"materials"}
+
+
+NoMethodError (undefined method `validate_uniqueness_of' for Material:Class):
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/activerecord-1.13.2/lib/active_record/base.rb:991:in `method_missing'
+    /app/models/material.rb:2
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/activesupport-1.2.5/lib/active_support/dependencies.rb:207:in `load'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/activesupport-1.2.5/lib/active_support/dependencies.rb:207:in `load'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/activesupport-1.2.5/lib/active_support/dependencies.rb:39:in `require_or_load'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/activesupport-1.2.5/lib/active_support/dependencies.rb:22:in `depend_on'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/activesupport-1.2.5/lib/active_support/dependencies.rb:178:in `require_dependency'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/activesupport-1.2.5/lib/active_support/dependencies.rb:178:in `require_dependency'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/activesupport-1.2.5/lib/active_support/dependencies.rb:194:in `const_missing'
+    /app/controllers/materials_controller.rb:16:in `new'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/base.rb:853:in `send'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/base.rb:853:in `perform_action_without_filters'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/filters.rb:332:in `perform_action_without_benchmark'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/benchmarking.rb:69:in `measure'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/rescue.rb:82:in `perform_action'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/base.rb:369:in `send'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/base.rb:369:in `process_without_session_management_support'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/session_management.rb:116:in `process'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/dispatcher.rb:38:in `dispatch'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:141:in `process_request'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:53:in `process!'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:52:in `each_cgi'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/fcgi-0.8.6.1/./fcgi.rb:597:in `each'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/fcgi-0.8.6.1/./fcgi.rb:597:in `each_cgi'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:52:in `process!'
+    /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/rails-1.0.0/lib/fcgi_handler.rb:22:in `process!'
+    /Users/alexkroman/Sites/alchemist/public/dispatch.fcgi:24
+
+
+Rendering /Applications/Locomotive/Bundles/rails-1.0.0-max.bundle/Contents/Resources/ports/lib/ruby/gems/1.8/gems/actionpack-1.11.2/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing MaterialsController#new (for 127.0.0.1 at 2006-03-09 20:25:30) [GET]
+  Parameters: {"action"=>"new", "controller"=>"materials"}
+  [4;36;1mMaterial Columns (0.009295)[0m   [0;1mSHOW FIELDS FROM materials[0m
+Rendering  within layouts/materials
+Rendering materials/new
+Rendered materials/_form (0.00400)
+Completed in 0.09290 (10 reqs/sec) | Rendering: 0.02269 (24%) | DB: 0.00929 (10%) | 200 OK [http://0.0.0.0/materials/new]
+
+
+Processing MaterialsController#create (for 127.0.0.1 at 2006-03-09 20:25:35) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "controller"=>"materials", "material"=>{"name"=>"Lemon Peel"}}
+  [4;35;1mMaterial Columns (0.011080)[0m   [0mSHOW FIELDS FROM materials[0m
+  [4;36;1mSQL (0.004965)[0m   [0;1mBEGIN[0m
+  [4;35;1mMaterial Load (0.024678)[0m   [0mSELECT * FROM materials WHERE (name = 'Lemon Peel') LIMIT 1[0m
+  [4;36;1mSQL (0.001221)[0m   [0;1mINSERT INTO materials (`name`) VALUES('Lemon Peel')[0m
+  [4;35;1mSQL (0.000464)[0m   [0mCOMMIT[0m
+Redirected to http://0.0.0.0:3002/materials/list
+Completed in 0.09896 (10 reqs/sec) | DB: 0.04241 (42%) | 302 Found [http://0.0.0.0/materials/create]
+
+
+Processing MaterialsController#list (for 127.0.0.1 at 2006-03-09 20:25:36) [GET]
+  Parameters: {"action"=>"list", "controller"=>"materials"}
+  [4;36;1mMaterial Count (0.000914)[0m   [0;1mSELECT COUNT(*) FROM materials [0m
+  [4;35;1mMaterial Load (0.000969)[0m   [0mSELECT * FROM materials LIMIT 0, 10[0m
+Rendering  within layouts/materials
+Rendering materials/list
+  [4;36;1mMaterial Columns (0.005328)[0m   [0;1mSHOW FIELDS FROM materials[0m
+Completed in 0.14059 (7 reqs/sec) | Rendering: 0.05387 (38%) | DB: 0.00721 (5%) | 200 OK [http://0.0.0.0/materials/list]
+
+
+Processing MaterialsController#new (for 127.0.0.1 at 2006-03-09 20:25:40) [GET]
+  Parameters: {"action"=>"new", "controller"=>"materials"}
+  [4;35;1mMaterial Columns (0.004824)[0m   [0mSHOW FIELDS FROM materials[0m
+Rendering  within layouts/materials
+Rendering materials/new
+Rendered materials/_form (0.00975)
+Completed in 0.46310 (2 reqs/sec) | Rendering: 0.43256 (93%) | DB: 0.00482 (1%) | 200 OK [http://0.0.0.0/materials/new]
+
+
+Processing MaterialsController#create (for 127.0.0.1 at 2006-03-09 20:25:45) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "controller"=>"materials", "material"=>{"name"=>"Lemon Peel"}}
+  [4;36;1mMaterial Columns (0.022532)[0m   [0;1mSHOW FIELDS FROM materials[0m
+  [4;35;1mSQL (0.003609)[0m   [0mBEGIN[0m
+  [4;36;1mMaterial Load (0.001512)[0m   [0;1mSELECT * FROM materials WHERE (name = 'Lemon Peel') LIMIT 1[0m
+  [4;35;1mSQL (0.000527)[0m   [0mCOMMIT[0m
+Rendering actionnewlayoutfalse within layouts/materials
+Rendering materials/new
+Rendered materials/_form (0.00386)
+Completed in 0.08030 (12 reqs/sec) | Rendering: 0.02185 (27%) | DB: 0.02818 (35%) | 200 OK [http://0.0.0.0/materials/create]
+
+
+Processing MaterialsController#create (for 127.0.0.1 at 2006-03-09 20:26:01) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "controller"=>"materials", "material"=>{"name"=>"Lemon Peel"}}
+  [4;36;1mMaterial Columns (0.011849)[0m   [0;1mSHOW FIELDS FROM materials[0m
+  [4;35;1mSQL (0.000511)[0m   [0mBEGIN[0m
+  [4;36;1mMaterial Load (0.001233)[0m   [0;1mSELECT * FROM materials WHERE (name = 'Lemon Peel') LIMIT 1[0m
+  [4;35;1mSQL (0.000500)[0m   [0mCOMMIT[0m
+Rendering actionnewlayoutfalse within layouts/materials
+Rendering materials/new
+Rendered materials/_form (0.00430)
+Completed in 0.08165 (12 reqs/sec) | Rendering: 0.01568 (19%) | DB: 0.01409 (17%) | 200 OK [http://0.0.0.0/materials/create]
+  [4;36;1mFormulas Columns (0.010831)[0m   [0;1mSHOW FIELDS FROM formulas[0m
+
+
+Processing MaterialsController#new (for 127.0.0.1 at 2006-03-09 20:35:33) [GET]
+  Parameters: {"action"=>"new", "controller"=>"materials"}
+  [4;36;1mMaterial Columns (0.038945)[0m   [0;1mSHOW FIELDS FROM materials[0m
+Rendering  within layouts/materials
+Rendering materials/new
+Rendered materials/_form (0.00321)
+Completed in 0.07964 (12 reqs/sec) | Rendering: 0.01357 (17%) | DB: 0.03895 (48%) | 200 OK [http://0.0.0.0/materials/new]
+
+
+Processing MaterialsController#create (for 127.0.0.1 at 2006-03-09 20:47:45) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "controller"=>"materials", "material"=>{"name"=>""}}
+
+
+Processing MaterialsController#create (for 127.0.0.1 at 2006-03-09 20:47:45) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "controller"=>"materials", "material"=>{"name"=>""}}
+  [4;36;1mMaterial Columns (0.008828)[0m   [0;1mSHOW FIELDS FROM materials[0m
+  [4;35;1mSQL (0.004139)[0m   [0mBEGIN[0m
+  [4;36;1mMaterial Load (0.001158)[0m   [0;1mSELECT * FROM materials WHERE (name = '') LIMIT 1[0m
+  [4;35;1mSQL (0.000506)[0m   [0mCOMMIT[0m
+Rendering actionnewlayoutfalse within layouts/materials
+  [4;35;1mMaterial Columns (0.037842)[0m   [0mSHOW FIELDS FROM materials[0m
+  [4;36;1mSQL (0.004637)[0m   [0;1mBEGIN[0m
+  [4;35;1mMaterial Load (0.001075)[0m   [0mSELECT * FROM materials WHERE (name = '') LIMIT 1[0m
+  [4;36;1mSQL (0.000605)[0m   [0;1mCOMMIT[0m
+Rendering actionnewlayoutfalse within layouts/materials
+Rendering materials/new
+Rendering materials/new
+Rendered materials/_form (0.00402)
+Completed in 0.13260 (7 reqs/sec) | Rendering: 0.03028 (22%) | DB: 0.04416 (33%) | 200 OK [http://0.0.0.0/materials/create]
+Rendered materials/_form (0.02067)
+Completed in 0.13137 (7 reqs/sec) | Rendering: 0.07401 (56%) | DB: 0.01463 (11%) | 200 OK [http://0.0.0.0/materials/create]
+
+
+Processing MaterialsController#create (for 127.0.0.1 at 2006-03-09 20:47:56) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "controller"=>"materials", "material"=>{"name"=>""}}
+  [4;36;1mMaterial Columns (0.005878)[0m   [0;1mSHOW FIELDS FROM materials[0m
+  [4;35;1mSQL (0.004946)[0m   [0mBEGIN[0m
+  [4;36;1mMaterial Load (0.001055)[0m   [0;1mSELECT * FROM materials WHERE (name = '') LIMIT 1[0m
+  [4;35;1mSQL (0.000577)[0m   [0mCOMMIT[0m
+Rendering actionnewlayoutfalse within layouts/materials
+Rendering materials/new
+Rendered materials/_form (0.00456)
+Completed in 0.05818 (17 reqs/sec) | Rendering: 0.01917 (32%) | DB: 0.01246 (21%) | 200 OK [http://0.0.0.0/materials/create]
+  [4;36;1mFormula Columns (0.005600)[0m   [0;1mSHOW FIELDS FROM formulas[0m
+
+
+Processing MaterialsController#create (for 127.0.0.1 at 2006-03-09 20:53:53) [GET]
+  Parameters: {"action"=>"create", "controller"=>"materials"}
+  [4;36;1mMaterial Columns (0.006233)[0m   [0;1mSHOW FIELDS FROM materials[0m
+  [4;35;1mSQL (0.005100)[0m   [0mBEGIN[0m
+  [4;36;1mMaterial Load (0.001069)[0m   [0;1mSELECT * FROM materials WHERE (name = '') LIMIT 1[0m
+  [4;35;1mSQL (0.000534)[0m   [0mCOMMIT[0m
+Rendering actionnewlayoutfalse within layouts/materials
+Rendering materials/new
+Rendered materials/_form (0.00450)
+Completed in 0.06128 (16 reqs/sec) | Rendering: 0.01456 (23%) | DB: 0.01294 (21%) | 200 OK [http://0.0.0.0/materials/create]
+
+
+Processing FormulasController#index (for 127.0.0.1 at 2006-03-09 20:53:57) [GET]
+  Parameters: {"action"=>"index", "controller"=>"formulas"}
+  [4;36;1mFormula Count (0.000741)[0m   [0;1mSELECT COUNT(*) FROM formulas [0m
+  [4;35;1mFormula Load (0.000920)[0m   [0mSELECT * FROM formulas LIMIT 0, 10[0m
+Rendering actionlistlayoutfalse within layouts/formulas
+Rendering formulas/list
+  [4;36;1mFormula Columns (0.008044)[0m   [0;1mSHOW FIELDS FROM formulas[0m
+Completed in 0.08971 (11 reqs/sec) | Rendering: 0.03864 (43%) | DB: 0.00970 (10%) | 200 OK [http://0.0.0.0/formulas/]
+
+
+Processing FormulasController#new (for 127.0.0.1 at 2006-03-09 20:53:59) [GET]
+  Parameters: {"action"=>"new", "controller"=>"formulas"}
+  [4;35;1mFormula Columns (0.024176)[0m   [0mSHOW FIELDS FROM formulas[0m
+Rendering  within layouts/formulas
+Rendering formulas/new
+Rendered formulas/_form (0.00908)
+Completed in 0.07540 (13 reqs/sec) | Rendering: 0.02646 (35%) | DB: 0.02418 (32%) | 200 OK [http://0.0.0.0/formulas/new]
+
+
+Processing FormulasController#create (for 127.0.0.1 at 2006-03-09 21:18:41) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "formula"=>{"name"=>"apple"}, "controller"=>"formulas"}
+  [4;36;1mFormula Columns (0.005702)[0m   [0;1mSHOW FIELDS FROM formulas[0m
+  [4;35;1mSQL (0.004801)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.001219)[0m   [0;1mINSERT INTO formulas (`name`, `parent_id`) VALUES('apple', NULL)[0m
+  [4;35;1mSQL (0.000468)[0m   [0mCOMMIT[0m
+Redirected to http://0.0.0.0:3002/formulas/list
+Completed in 0.05914 (16 reqs/sec) | DB: 0.01219 (20%) | 302 Found [http://0.0.0.0/formulas/create]
+
+
+Processing FormulasController#list (for 127.0.0.1 at 2006-03-09 21:18:41) [GET]
+  Parameters: {"action"=>"list", "controller"=>"formulas"}
+  [4;35;1mFormula Count (0.028574)[0m   [0mSELECT COUNT(*) FROM formulas [0m
+  [4;36;1mFormula Load (0.001000)[0m   [0;1mSELECT * FROM formulas LIMIT 0, 10[0m
+Rendering  within layouts/formulas
+Rendering formulas/list
+  [4;35;1mFormula Columns (0.008756)[0m   [0mSHOW FIELDS FROM formulas[0m
+Completed in 0.16774 (5 reqs/sec) | Rendering: 0.07463 (44%) | DB: 0.03833 (22%) | 200 OK [http://0.0.0.0/formulas/list]
+
+
+Processing FormulasController#destroy (for 127.0.0.1 at 2006-03-09 21:18:46) [GET]
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"formulas"}
+  [4;36;1mFormula Load (0.001483)[0m   [0;1mSELECT * FROM formulas WHERE (formulas.id = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.000533)[0m   [0mBEGIN[0m
+  [4;36;1mFormula Columns (0.013968)[0m   [0;1mSHOW FIELDS FROM formulas[0m
+  [4;35;1mFormula Load (0.004588)[0m   [0mSELECT * FROM formulas WHERE (formulas.parent_id = 1) ORDER BY id [0m
+  [4;36;1mFormula Destroy (0.001235)[0m   [0;1m DELETE FROM formulas
+ WHERE id = 1
+[0m
+  [4;35;1mSQL (0.000492)[0m   [0mCOMMIT[0m
+Redirected to http://0.0.0.0:3002/formulas/list
+Completed in 0.10884 (9 reqs/sec) | DB: 0.02230 (20%) | 302 Found [http://0.0.0.0/formulas/destroy/1]
+
+
+Processing FormulasController#list (for 127.0.0.1 at 2006-03-09 21:18:47) [GET]
+  Parameters: {"action"=>"list", "controller"=>"formulas"}
+  [4;36;1mFormula Count (0.001017)[0m   [0;1mSELECT COUNT(*) FROM formulas [0m
+  [4;35;1mFormula Load (0.000952)[0m   [0mSELECT * FROM formulas LIMIT 0, 10[0m
+Rendering  within layouts/formulas
+Rendering formulas/list
+  [4;36;1mFormula Columns (0.004992)[0m   [0;1mSHOW FIELDS FROM formulas[0m
+Completed in 0.82112 (1 reqs/sec) | Rendering: 0.01176 (1%) | DB: 0.00696 (0%) | 200 OK [http://0.0.0.0/formulas/list]
+
+
+Processing MaterialsController#index (for 127.0.0.1 at 2006-03-09 21:18:58) [GET]
+  Parameters: {"action"=>"index", "controller"=>"materials"}
+  [4;35;1mMaterial Count (0.000728)[0m   [0mSELECT COUNT(*) FROM materials [0m
+  [4;36;1mMaterial Load (0.000974)[0m   [0;1mSELECT * FROM materials LIMIT 0, 10[0m
+Rendering actionlistlayoutfalse within layouts/materials
+Rendering materials/list
+  [4;35;1mMaterial Columns (0.040059)[0m   [0mSHOW FIELDS FROM materials[0m
+Completed in 0.45956 (2 reqs/sec) | Rendering: 0.33113 (72%) | DB: 0.04176 (9%) | 200 OK [http://0.0.0.0/materials/]
+
+
+Processing MaterialsController#index (for 127.0.0.1 at 2006-03-10 21:51:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"materials"}
+  [4;36;1mMaterial Count (0.000923)[0m   [0;1mSELECT COUNT(*) FROM materials [0m
+  [4;35;1mMaterial Load (0.001026)[0m   [0mSELECT * FROM materials LIMIT 0, 10[0m
+Rendering actionlistlayoutfalse within layouts/materials
+Rendering materials/list
+  [4;36;1mMaterial Columns (0.005378)[0m   [0;1mSHOW FIELDS FROM materials[0m
+Completed in 0.27427 (3 reqs/sec) | Rendering: 0.04044 (14%) | DB: 0.00733 (2%) | 200 OK [http://0.0.0.0/materials]
+
+
+Processing MaterialsController#show (for 127.0.0.1 at 2006-03-10 21:51:17) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"materials"}
+  [4;35;1mMaterial Load (0.001137)[0m   [0mSELECT * FROM materials WHERE (materials.id = '1') LIMIT 1[0m
+Rendering  within layouts/materials
+Rendering materials/show
+  [4;36;1mMaterial Columns (0.005102)[0m   [0;1mSHOW FIELDS FROM materials[0m
+Completed in 0.36712 (2 reqs/sec) | Rendering: 0.01858 (5%) | DB: 0.00624 (1%) | 200 OK [http://0.0.0.0/materials/show/1]
+
+
+Processing MaterialsController#edit (for 127.0.0.1 at 2006-03-10 21:51:20) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"materials"}
+  [4;35;1mMaterial Load (0.001308)[0m   [0mSELECT * FROM materials WHERE (materials.id = '1') LIMIT 1[0m
+Rendering  within layouts/materials
+Rendering materials/edit
+  [4;36;1mMaterial Columns (0.005855)[0m   [0;1mSHOW FIELDS FROM materials[0m
+Rendered materials/_form (0.01942)
+Completed in 0.09476 (10 reqs/sec) | Rendering: 0.06302 (66%) | DB: 0.00716 (7%) | 200 OK [http://0.0.0.0/materials/edit/1]
+
+
+Processing MaterialsController#update (for 127.0.0.1 at 2006-03-10 21:51:24) [POST]
+  Parameters: {"commit"=>"Edit", "action"=>"update", "id"=>"1", "controller"=>"materials", "material"=>{"name"=>"Lemon Peels"}}
+  [4;35;1mMaterial Load (0.001057)[0m   [0mSELECT * FROM materials WHERE (materials.id = '1') LIMIT 1[0m
+  [4;36;1mMaterial Columns (0.013581)[0m   [0;1mSHOW FIELDS FROM materials[0m
+  [4;35;1mSQL (0.006341)[0m   [0mBEGIN[0m
+  [4;36;1mMaterial Load (0.001522)[0m   [0;1mSELECT * FROM materials WHERE (name = 'Lemon Peels' AND id <> 1) LIMIT 1[0m
+  [4;35;1mMaterial Update (0.007482)[0m   [0mUPDATE materials SET `name` = 'Lemon Peels' WHERE id = 1[0m
+  [4;36;1mSQL (0.000878)[0m   [0;1mCOMMIT[0m
+Redirected to http://0.0.0.0:3002/materials/show/1
+Completed in 0.08259 (12 reqs/sec) | DB: 0.03086 (37%) | 302 Found [http://0.0.0.0/materials/update/1]
+
+
+Processing MaterialsController#show (for 127.0.0.1 at 2006-03-10 21:51:25) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"materials"}
+  [4;36;1mMaterial Load (0.001259)[0m   [0;1mSELECT * FROM materials WHERE (materials.id = '1') LIMIT 1[0m
+Rendering  within layouts/materials
+Rendering materials/show
+  [4;35;1mMaterial Columns (0.005138)[0m   [0mSHOW FIELDS FROM materials[0m
+Completed in 0.09078 (11 reqs/sec) | Rendering: 0.02714 (29%) | DB: 0.00640 (7%) | 200 OK [http://0.0.0.0/materials/show/1]
+
+
+Processing MaterialsController#list (for 127.0.0.1 at 2006-03-10 21:51:30) [GET]
+  Parameters: {"action"=>"list", "controller"=>"materials"}
+  [4;36;1mMaterial Count (0.001163)[0m   [0;1mSELECT COUNT(*) FROM materials [0m
+  [4;35;1mMaterial Load (0.001410)[0m   [0mSELECT * FROM materials LIMIT 0, 10[0m
+Rendering  within layouts/materials
+Rendering materials/list
+  [4;36;1mMaterial Columns (0.004882)[0m   [0;1mSHOW FIELDS FROM materials[0m
+Completed in 0.37645 (2 reqs/sec) | Rendering: 0.32592 (86%) | DB: 0.00745 (1%) | 200 OK [http://0.0.0.0/materials/list]
+
+
+Processing FormulasController#index (for 127.0.0.1 at 2006-03-10 21:51:38) [GET]
+  Parameters: {"action"=>"index", "controller"=>"formulas"}
+  [4;35;1mFormula Count (0.000892)[0m   [0mSELECT COUNT(*) FROM formulas [0m
+  [4;36;1mFormula Load (0.000990)[0m   [0;1mSELECT * FROM formulas LIMIT 0, 10[0m
+Rendering actionlistlayoutfalse within layouts/formulas
+Rendering formulas/list
+  [4;35;1mFormula Columns (0.005877)[0m   [0mSHOW FIELDS FROM formulas[0m
+Completed in 0.07322 (13 reqs/sec) | Rendering: 0.03524 (48%) | DB: 0.00776 (10%) | 200 OK [http://0.0.0.0/formulas]
+
+
+Processing FormulasController#new (for 127.0.0.1 at 2006-03-10 21:51:43) [GET]
+  Parameters: {"action"=>"new", "controller"=>"formulas"}
+  [4;36;1mFormula Columns (0.006944)[0m   [0;1mSHOW FIELDS FROM formulas[0m
+Rendering  within layouts/formulas
+Rendering formulas/new
+Rendered formulas/_form (0.01095)
+Completed in 0.14976 (6 reqs/sec) | Rendering: 0.07993 (53%) | DB: 0.00694 (4%) | 200 OK [http://0.0.0.0/formulas/new]
+
+
+Processing FormulasController#create (for 127.0.0.1 at 2006-03-10 21:51:52) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "formula"=>{"name"=>"Thiis is some kind of formula"}, "controller"=>"formulas"}
+  [4;35;1mFormula Columns (0.005125)[0m   [0mSHOW FIELDS FROM formulas[0m
+  [4;36;1mSQL (0.003913)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000972)[0m   [0mINSERT INTO formulas (`name`, `parent_id`) VALUES('Thiis is some kind of formula', NULL)[0m
+  [4;36;1mSQL (0.000480)[0m   [0;1mCOMMIT[0m
+Redirected to http://0.0.0.0:3002/formulas/list
+Completed in 0.05521 (18 reqs/sec) | DB: 0.01049 (19%) | 302 Found [http://0.0.0.0/formulas/create]
+
+
+Processing FormulasController#list (for 127.0.0.1 at 2006-03-10 21:51:52) [GET]
+  Parameters: {"action"=>"list", "controller"=>"formulas"}
+  [4;35;1mFormula Count (0.000751)[0m   [0mSELECT COUNT(*) FROM formulas [0m
+  [4;36;1mFormula Load (0.001001)[0m   [0;1mSELECT * FROM formulas LIMIT 0, 10[0m
+Rendering  within layouts/formulas
+Rendering formulas/list
+  [4;35;1mFormula Columns (0.005259)[0m   [0mSHOW FIELDS FROM formulas[0m
+Completed in 0.16204 (6 reqs/sec) | Rendering: 0.03836 (23%) | DB: 0.00701 (4%) | 200 OK [http://0.0.0.0/formulas/list]
+
+
+Processing FormulasController#new (for 127.0.0.1 at 2006-03-10 21:53:42) [GET]
+  Parameters: {"action"=>"new", "controller"=>"formulas"}
+  [4;36;1mFormula Columns (0.006890)[0m   [0;1mSHOW FIELDS FROM formulas[0m
+Rendering  within layouts/formulas
+Rendering formulas/new
+Rendered formulas/_form (0.01079)
+Completed in 0.07016 (14 reqs/sec) | Rendering: 0.02612 (37%) | DB: 0.00689 (9%) | 200 OK [http://0.0.0.0/formulas/new]
+
+
+Processing FormulasController#list (for 127.0.0.1 at 2006-03-10 21:54:59) [GET]
+  Parameters: {"action"=>"list", "controller"=>"formulas"}
+  [4;35;1mFormula Count (0.000830)[0m   [0mSELECT COUNT(*) FROM formulas [0m
+  [4;36;1mFormula Load (0.001104)[0m   [0;1mSELECT * FROM formulas LIMIT 0, 10[0m
+Rendering  within layouts/formulas
+Rendering formulas/list
+  [4;35;1mFormula Columns (0.005245)[0m   [0mSHOW FIELDS FROM formulas[0m
+Completed in 0.07123 (14 reqs/sec) | Rendering: 0.01787 (25%) | DB: 0.00718 (10%) | 200 OK [http://0.0.0.0/formulas/list]
+
+
+Processing FormulasController#show (for 127.0.0.1 at 2006-03-10 21:55:07) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"formulas"}
+  [4;36;1mFormula Load (0.001114)[0m   [0;1mSELECT * FROM formulas WHERE (formulas.id = '2') LIMIT 1[0m
+Rendering  within layouts/formulas
+Rendering formulas/show
+  [4;35;1mFormula Columns (0.005187)[0m   [0mSHOW FIELDS FROM formulas[0m
+Completed in 0.06377 (15 reqs/sec) | Rendering: 0.03232 (50%) | DB: 0.00630 (9%) | 200 OK [http://0.0.0.0/formulas/show/2]
+
+
+Processing FormulasController#list (for 127.0.0.1 at 2006-03-10 21:55:10) [GET]
+  Parameters: {"action"=>"list", "controller"=>"formulas"}
+  [4;36;1mFormula Count (0.001087)[0m   [0;1mSELECT COUNT(*) FROM formulas [0m
+  [4;35;1mFormula Load (0.003037)[0m   [0mSELECT * FROM formulas LIMIT 0, 10[0m
+Rendering  within layouts/formulas
+Rendering formulas/list
+  [4;36;1mFormula Columns (0.016546)[0m   [0;1mSHOW FIELDS FROM formulas[0m
+Completed in 0.10079 (9 reqs/sec) | Rendering: 0.01851 (18%) | DB: 0.02067 (20%) | 200 OK [http://0.0.0.0/formulas/list]
+
+
+Processing FormulasController#new (for 127.0.0.1 at 2006-03-10 21:57:10) [GET]
+  Parameters: {"action"=>"new", "controller"=>"formulas"}
+  [4;35;1mFormula Columns (0.005359)[0m   [0mSHOW FIELDS FROM formulas[0m
+Rendering  within layouts/formulas
+Rendering formulas/new
+Rendered formulas/_form (0.00294)
+Completed in 0.06681 (14 reqs/sec) | Rendering: 0.03130 (46%) | DB: 0.00536 (8%) | 200 OK [http://0.0.0.0/formulas/new]
+
+
+Processing FormulasController#new (for 127.0.0.1 at 2006-03-10 22:00:23) [GET]
+  Parameters: {"action"=>"new", "controller"=>"formulas"}
+  [4;36;1mFormula Columns (0.009023)[0m   [0;1mSHOW FIELDS FROM formulas[0m
+Rendering  within layouts/formulas
+Rendering formulas/new
+Rendered formulas/_form (0.01031)
+Completed in 0.22812 (4 reqs/sec) | Rendering: 0.02472 (10%) | DB: 0.00902 (3%) | 200 OK [http://0.0.0.0/formulas/new]
+
+
+Processing FormulasController#new (for 127.0.0.1 at 2006-03-10 22:10:15) [GET]
+  Parameters: {"action"=>"new", "controller"=>"formulas"}
+  [4;35;1mFormula Columns (0.010666)[0m   [0mSHOW FIELDS FROM formulas[0m
+Rendering  within layouts/formulas
+Rendering formulas/new
+Rendered formulas/_form (0.00993)
+Completed in 0.16245 (6 reqs/sec) | Rendering: 0.02162 (13%) | DB: 0.01067 (6%) | 200 OK [http://0.0.0.0/formulas/new]
+
+
+Processing FormulasController#new (for 127.0.0.1 at 2006-03-10 22:10:26) [GET]
+  Parameters: {"action"=>"new", "controller"=>"formulas"}
+  [4;36;1mFormula Columns (0.005669)[0m   [0;1mSHOW FIELDS FROM formulas[0m
+Rendering  within layouts/formulas
+Rendering formulas/new
+Rendered formulas/_form (0.00981)
+Completed in 0.05975 (16 reqs/sec) | Rendering: 0.02338 (39%) | DB: 0.00567 (9%) | 200 OK [http://0.0.0.0/formulas/new]
+
+
+Processing FormulasController#new (for 127.0.0.1 at 2006-03-10 22:10:35) [GET]
+  Parameters: {"action"=>"new", "controller"=>"formulas"}
+  [4;35;1mFormula Columns (0.005476)[0m   [0mSHOW FIELDS FROM formulas[0m
+Rendering  within layouts/formulas
+Rendering formulas/new
+Rendered formulas/_form (0.02329)
+Completed in 0.07099 (14 reqs/sec) | Rendering: 0.03279 (46%) | DB: 0.00548 (7%) | 200 OK [http://0.0.0.0/formulas/new]
+
+
+Processing FormulasController#new (for 127.0.0.1 at 2006-03-10 22:10:51) [GET]
+  Parameters: {"action"=>"new", "controller"=>"formulas"}
+  [4;36;1mFormula Columns (0.005351)[0m   [0;1mSHOW FIELDS FROM formulas[0m
+Rendering  within layouts/formulas
+Rendering formulas/new
+Rendered formulas/_form (0.11537)
+Completed in 0.17785 (5 reqs/sec) | Rendering: 0.12504 (70%) | DB: 0.00535 (3%) | 200 OK [http://0.0.0.0/formulas/new]

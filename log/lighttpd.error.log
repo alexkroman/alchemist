@@ -1,0 +1,19 @@
+2006-03-09 20:13:01: (log.c.75) server started 
+2006-03-09 20:16:35: (connections.c.1383) Warning: Either the error-handler returned status 404 or the error-handler itself was not found: dispatch.fcgi 
+2006-03-09 20:16:35: (connections.c.1385) returning the original status 404 
+2006-03-09 20:16:35: (connections.c.1387) If this is a rails app: check your production.log 
+2006-03-09 20:16:43: (connections.c.1383) Warning: Either the error-handler returned status 404 or the error-handler itself was not found: dispatch.fcgi 
+2006-03-09 20:16:43: (connections.c.1385) returning the original status 404 
+2006-03-09 20:16:43: (connections.c.1387) If this is a rails app: check your production.log 
+2006-03-09 20:17:25: (connections.c.1383) Warning: Either the error-handler returned status 404 or the error-handler itself was not found: dispatch.fcgi 
+2006-03-09 20:17:25: (connections.c.1385) returning the original status 404 
+2006-03-09 20:17:25: (connections.c.1387) If this is a rails app: check your production.log 
+2006-03-09 20:17:28: (connections.c.1383) Warning: Either the error-handler returned status 404 or the error-handler itself was not found: dispatch.fcgi 
+2006-03-09 20:17:28: (connections.c.1385) returning the original status 404 
+2006-03-09 20:17:28: (connections.c.1387) If this is a rails app: check your production.log 
+2006-03-09 20:18:19: (connections.c.1383) Warning: Either the error-handler returned status 404 or the error-handler itself was not found: dispatch.fcgi 
+2006-03-09 20:18:19: (connections.c.1385) returning the original status 404 
+2006-03-09 20:18:19: (connections.c.1387) If this is a rails app: check your production.log 
+2006-03-09 21:35:49: (log.c.135) server stopped 
+2006-03-10 21:50:52: (log.c.75) server started 
+2006-03-11 08:13:37: (log.c.135) server stopped 

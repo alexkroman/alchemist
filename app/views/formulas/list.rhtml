@@ -1,0 +1,27 @@
+<h1>Listing formulas</h1>
+
+<table>
+  <tr>
+  <% for column in Formula.content_columns %>
+    <th><%= column.human_name %></th>
+  <% end %>
+  </tr>
+  
+<% for formula in @formulas %>
+  <tr>
+  <% for column in Formula.content_columns %>
+    <td><%=h formula.send(column.name) %></td>
+  <% end %>
+    <td><%= link_to 'Show', :action => 'show', :id => formula %></td>
+    <td><%= link_to 'Edit', :action => 'edit', :id => formula %></td>
+    <td><%= link_to 'Destroy', { :action => 'destroy', :id => formula }, :confirm => 'Are you sure?' %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'Previous page', { :page => @formula_pages.current.previous } if @formula_pages.current.previous %>
+<%= link_to 'Next page', { :page => @formula_pages.current.next } if @formula_pages.current.next %> 
+
+<br />
+
+<%= link_to 'New formula', :action => 'new' %>
